@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: blue;
+    padding: 10px 30px 10px 30px;
+    margin: 0
+}
+
+.nav-left {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left h5 {
+    color: white;
+    margin-left: 10px
+}
+
+.nav-right ul {
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+}
+
+.nav-right ul li {
+    margin-left: 30px;
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    color: white
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+    margin-top: 20px;
+    padding: 10px
+}
+
+.box p {
+    margin: 0
+}
